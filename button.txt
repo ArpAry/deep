@@ -1,0 +1,18 @@
+#name .cta{
+    display:inline-block;
+    padding:10px 30px;
+    color:crimson;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition: .3s ease background-color; 
+    transition-property: background-color,color;
+}
+#name .cta:hover{
+    color:white;
+    background-color: crimson;
+
+}
